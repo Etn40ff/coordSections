@@ -165,26 +165,19 @@ F.~Chapoton observed a similar isomorphism between the exchange graph of certain
 	\label{fig:accordiohedron}
 \end{figure}
 
-The purpose of this note is to show that this isomorphism is an avatar of a more general result in the theory of $\tau$-tilting modules,
-which we prove for any basic finite-dimensional algebra.
-
+The purpose of this note is to show that this isomorphism is an avatar of a more general result in the theory of $\tau$-tilting modules.
 Any basic finite dimensional algebra $\Lambda$ gives rise to an exchange graph on support $\tau$-tilting modules. 
-This exchange graph is the dual graph of the support $\tau$-tilting simplicial complex~\cite{AdachiIyamaReiten} (see Section~\ref{sec:recollections}).
-
+This exchange graph is the dual graph of the support $\tau$-tilting complex~\cite{AdachiIyamaReiten} (see Section~\ref{sec:recollections}).
 Let~$\{e_1, \dots, e_n\}$ be a complete set of primitive pairwise orthogonal idempotents of~$\Lambda$. 
 Let~$J$ be a non-empty subset of~$[n]$ and~$e_J \eqdef \sum_{j \in J} e_j$.
-The following result on support $\tau$-tilting modules whose $\b{g}$-vectors vanish in certain coordinates
-forms the algebraic core of the paper (See Section~\ref{sec:recollections} for definitions). 
+The following result forms the algebraic core of the paper (see Section~\ref{sec:recollections} for definitions and Section~\ref{sec:algRes} for the proof). 
 
 \begin{theorem}
 \label{thm:mainAlgThm}
 The support $\tau$-tilting complex of~$e_J \Lambda e_J$ is isomorphic to the subcomplex of the support $\tau$-tilting complex of~$\Lambda$ induced by the support $\tau$-tilting modules whose $\b{g}$-vectors' coordinates vanish outside of~$J$.
 \end{theorem}
 
-We prove Theorem \ref{thm:mainAlgThm} in Section \ref{sec:algRes}.
-
-With this algebraic result, we can explain the isomorphism of \fref{fig:accordiohedron}, 
-and extend it to dissections of any polygon.
+With this algebraic result, we can explain the isomorphism of \fref{fig:accordiohedron}, and extend it to dissections of any polygon.
 Any reference dissection of a polygon gives rise to an exchange graph on certain dissections.
 This exchange graph is the dual graph of the accordion complex studied in~\cite{Chapoton-quadrangulations, GarverMcConville, MannevillePilaud-accordion} (see Section~\ref{sec:accordions}).
 
@@ -193,7 +186,9 @@ This exchange graph is the dual graph of the accordion complex studied in~\cite{
 Any accordion complex is isomorphic to the support $\tau$-tilting simplicial complex of an explicit finite dimensional algebra. Thus, the corresponding exchange graphs are isomorphic.
 \end{theorem}
 
-We will deduce Theorem~\ref{thm:mainDissection} from Theorem \ref{thm:mainAlgThm} and from the known case of triangulations (or maximal dissections) of polygons.  We prove Theorem~\ref{thm:mainDissection} in Section~\ref{sec:accordions}.
+Note that this statement could be seen as a consequence of a more general result~\cite[Prop.~2.44]{PaluPilaudPlamondon}.
+However, the latter combines several isomorphisms (from dissections, via non-kissing paths, through non-attracting chords, to support $\tau$-tilting modules) and the proof is quite intricate.
+In the present paper, we will easily deduce Theorem~\ref{thm:mainDissection} from Theorem~\ref{thm:mainAlgThm} and from the known case of triangulations of polygons (see Section~\ref{sec:accordions}).
 
 The explicit finite dimensional algebras that appear in Theorem~\ref{thm:mainDissection} had previously appeared in~\cite{DavidRoeslerSchiffler, DavidRoesler}, where gentle algebras are associated to dissections of any surface without puncture. Applying Theorem~\ref{thm:mainAlgThm} to these algebras, one could obtain an analogue of the accordion complex for these surfaces.
 
@@ -413,7 +408,7 @@ For any reference dissection~$\dissection_\circ$, the $\dissection_\circ$-accord
 
 One possible approach to Theorem~\ref{thm:bijectionAccordionComplexSiltingComplex} would be to provide an explicit bijective map between $\dissection_\circ$-accordion diagonals and $2$-term silting objects for~$\overline{\quiver}(\dissection_\circ)$.
 Such a map is easy to guess using \mbox{$\b{g}$-vectors}, but the proof that it is actually a bijection and that it preserves compatibility is intricate.
-This approach was developed in the more general context of non-kissing complexes of gentle quivers with relations in~\cite[Proposition 4.43]{PaluPilaudPlamondon}.
+This approach was developed in the more general context of non-kissing complexes of gentle quivers with relations in~\cite[Prop.~2.44]{PaluPilaudPlamondon}.
 In this note, we use an alternative simpler strategy to obtain Theorem~\ref{thm:bijectionAccordionComplexSiltingComplex} by using Theorem \ref{thm:mainAlgThm} and understanding accordion complexes as certain subcomplexes of the associahedron.
 
 For that, consider two nested dissections~$\dissection_\circ \subset \dissection_\circ'$.
